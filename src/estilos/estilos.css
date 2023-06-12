@@ -1,0 +1,38 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 10/06/2023, 8:42:53 p. m.
+    Author     : Sergio
+*/
+
+
+#fondo {
+    -fx-background-color: #a2d2ff;
+}
+
+#username {
+    -fx-background-color: #bde0fe; 
+    -fx-background-radius: 50, 50, 50, 50;
+    -fx-font-size: 30px;
+   
+}
+#botoniniciar {
+    -fx-background-color: transparent
+}
+
+.respuestas {
+    -fx-border-width: 1px;
+    -fx-background-color: white;
+    -fx-border-radius: 10,10,10,10;
+    -fx-padding: 3px;
+    
+}
+.respuestas:selected {
+    -fx-background-color: #ccc;
+}
+.imagenpregunta {
+    -fx-border-radius: 10,10,10,10
+}
+
